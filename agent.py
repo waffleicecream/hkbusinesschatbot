@@ -149,7 +149,7 @@ def chat_with_claude(message, csv_data, system_prompt, memory):
 
     # Make API call
     response = client.messages.create(
-        model="claude-3-7-sonnet-20250219",
+        model="claude-sonnet-4-5-20250929",
         max_tokens=2000,
         messages=context
     )
